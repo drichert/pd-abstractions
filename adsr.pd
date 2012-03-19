@@ -1,4 +1,4 @@
-#N canvas 404 196 659 565 16;
+#N canvas 402 205 850 580 16;
 #X obj 82 195 bng 20 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X floatatom 122 256 5 0 0 0 - - -;
@@ -41,6 +41,14 @@
 #X text 433 400 \$4: sus;
 #X text 433 420 \$5: rel;
 #X text 433 442 \$6: atk+dec;
+#X obj 573 131 vsl 15 128 0 5 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 0 0;
+#X obj 592 131 vsl 15 128 0 5 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 1000 0;
+#X obj 611 131 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 7100 0;
+#X obj 630 131 vsl 15 128 0 5 0 0 empty empty empty 0 -9 0 10 -262144
+-1 -1 700 0;
 #X connect 0 0 2 0;
 #X connect 1 0 23 0;
 #X connect 2 0 1 0;
