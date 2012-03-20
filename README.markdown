@@ -1,7 +1,7 @@
 pd-abstractions
 ===============
 
-My Pure Data abstractions
+My [Pure Data](http://puredata.info/) abstractions
 
 ### g16
 16-step grid sequencer  
